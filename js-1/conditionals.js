@@ -1,10 +1,10 @@
 function calcularColor(num) {//ingresamos la variable num como parametro, nombre correcto de la funcion
   var color;
-  if (num == 1) { //==
+  if (num === 1) { 
     color = "negro"; //negro
-  } else if (num == 2) { //else if, ==
+  } else if (num === 2) { //else if, ===
     color = "blanco"; //ya punto y coma, no dos puntos
-  } else if (num == 3) { //==
+  } else if (num === 3) { 
     color = "azul"; //azul
   } else {
     color = "verde"; // va el igual en ves de dos puntos
