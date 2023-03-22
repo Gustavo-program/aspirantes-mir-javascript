@@ -21,6 +21,10 @@ for (let i=0; i < llaves.length; i++) {
   let llave = llaves[i];
   console.log(llave+" : "+ pedro[llave]);
 }
+// console.log("#######################");
+// for (const property in pedro) {
+//     console.log(`${property}: ${pedro[property]}`);
+//   }
 
 //Agrégale al objeto una función llamada saluda que retorne la frase “Hola, me llamo ” seguido del nombre de la persona.
 pedro.saluda = function() {
